@@ -28,6 +28,6 @@ def send(msg):
     print(client.recv(2048).decode(FORMAT))#ideally you can use the same header number to send a message to the server
     #back to the client
 
-send('Wobomba Isaac Newton')
+send('Newton10')
 send(DISCONNECT_MSG)
 
